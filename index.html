@@ -6,10 +6,65 @@
     <title>Assignment_03_Category_0001</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<!-- font-awesome-cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- font-link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            "pet-color": '#FFDC26',
+            "bg-color": '#FFF9F4',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .adlam-display-regular {
+  font-family: "ADLaM Display", serif;
+}
+.sora-font {
+  font-family: "Sora", serif;
+}
+  </style>
 </head>
-<body>
+<body class="adlam-display-regular ">
     <header>
-        <nav></nav>
+       <!-- nav-design -->
+       <nav class="bg-bg-color sora-font"  >
+        <div class="flex justify-between items-center pt-4 mx-32 pb-4"> 
+            <!-- logo div -->
+        <div class="flex justify-center items-center gap-5">
+ <img src="./c1-assets/logo-header.png" alt="">
+ <h3 class="max-sm:hidden">Browse<span class="text-pet-color text-xl">4</span>Pets</h3>
+        </div>
+
+<!-- links-div -->
+<div class="flex justify-center items-center max-sm:hidden">
+    <ul class="flex justify-center items-center max-sm:hidden gap-5" >
+        <li><a href="">Find a pet</a></li>
+        <li><a href="">Breads</a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+</div>
+<!-- icon & button -->
+<div class=" flex justify-center items-center max-sm:hidden gap-5">
+    <i class="fa-regular fa-bell "></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <a class="btn bg-white border border-pet-color">Login</a>
+    <a class="btn bg-pet-color">Register</a>
+</div>
+    </div>
+       </nav>
     </header>
     <main></main>
     <footer></footer>
