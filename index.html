@@ -37,11 +37,11 @@
 }
   </style>
 </head>
-<body class="adlam-display-regular ">
+<body class="sora-font ">
     <header>
        <!-- nav-design -->
        <nav class="bg-bg-color sora-font"  >
-        <div class="flex justify-between items-center pt-4 mx-32 pb-4"> 
+        <div class="flex justify-between items-center pt-4 pb-4 lg:mx-32  mx-9 mb-16"> 
             <!-- logo div -->
         <div class="flex justify-center items-center gap-5">
  <img src="./c1-assets/logo-header.png" alt="">
@@ -63,10 +63,216 @@
     <a class="btn bg-white border border-pet-color">Login</a>
     <a class="btn bg-pet-color">Register</a>
 </div>
+ <div class="lg:hidden">
+    <i class="fa-solid fa-bars "></i>
+ </div>
     </div>
        </nav>
+
+       <!-- hero-section -->
+        <div class="lg:mb-24">
+          <div class="relative lg:mx-32  mx-9">
+            <img class="absolute top-48 -z-10 lg:top-0" src="./c1-assets/cat-big.png" alt="">
+           </div>
+          <!-- text-section --> 
+ <div class="lg:mx-32  mx-9 ">
+  <h1 class="adlam-display-regular text-3xl lg:text-6xl mb-5">Pamper Your Pet,<br> Because They Deserve <br>
+    the Best</h1>
+<p class="text-gray-500 mb-5">
+Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!
+</p>
+<button class="btn bg-pet-color">Find a pet</button>
+ </div>
+ 
+        </div>
     </header>
-    <main></main>
+    <main>
+      <!-- Browse By Categories section -->
+<section >
+<div class=" lg:mx-32  mx-9 lg:mb-16 lg:pt-52 pt-32">
+  <h2 class="adlam-display-regular  mb-8 text-start font-bold text-xl">
+    Browse By Categories
+  </h2>
+<div class=" flex justify-around items-center flex-wrap gap-4" >
+ 
+  <!-- card-1 -->
+  <div class="flex flex-col justify-center items-center gap-2 bg-[#F9DF8A] border rounded-xl p-7 drop-shadow">
+  <img class="bg-white rounded-full p-6" src="./c1-assets/dog-cartoon.png" alt="">
+    <h3 class="adlam-display-regular">Dog</h3>
+    <small>3 Items</small>
+  </div>
+  <!-- card-2 -->
+  <div class="flex flex-col justify-center items-center gap-2 bg-[#F9DF8A] border rounded-xl p-7 drop-shadow">
+    <img class="bg-white rounded-full p-6" src="./c1-assets/fish-cartoon.png" alt="">
+      <h3 class="adlam-display-regular">Fish</h3>
+      <small>3 Items</small>
+    </div>
+    <!-- card-3 -->
+    <div class="flex flex-col justify-center items-center gap-2 bg-[#F9DF8A] border rounded-xl p-7 drop-shadow">
+      <img class="bg-white rounded-full p-6" src="./c1-assets/cat-cartoon.png" alt="">
+        <h3 class="adlam-display-regular">cat</h3>
+        <small>3 Items</small>
+      </div>
+
+      <!-- card-4 -->
+      <div class="flex flex-col justify-center items-center gap-2 bg-[#F9DF8A] border rounded-xl p-7 drop-shadow">
+        <img class="bg-white rounded-full p-6" src="./c1-assets/bird-cartoon.png">
+          <h3 class="adlam-display-regular">Bird</h3>
+          <small>3 Items</small>
+        </div>
+
+        <!-- card-5 -->
+        <div class="flex flex-col justify-center items-center gap-2 bg-[#F9DF8A] border rounded-xl p-7 drop-shadow">
+          <img class="bg-white rounded-full p-6" src="./c1-assets/pet-couch.png" alt="">
+            <h3 class="adlam-display-regular">Small pet</h3>
+            <small>3 Items</small>
+          </div>
+          <!-- card-6 -->
+          <div class="flex flex-col justify-center items-center gap-2 bg-[#F9DF8A] border rounded-xl p-7 drop-shadow">
+            <img class="bg-white rounded-full p-6" src="./c1-assets/rabbit-cartoon.png" alt="">
+              <h3 class="adlam-display-regular">rabbit</h3>
+              <small>2 Items</small>
+            </div>
+</div>
+</div>
+</section>
+<!-- 
+Trending Pet Products -->
+<section class="lg:bg-[#FFF9F4] pt-20 pb-12">
+  <div class=" lg:mx-32  mx-9 mb-16 ">
+    <h2 class="adlam-display-regular  mb-8 text-start font-bold text-xl">
+      Trending Pet Products
+    </h2>
+  <div class="">
+
+  
+  <div class="flex max-sm:flex-col">
+  <!-- t-shirt card -->
+  <div class="lg:w-1/3 border rounded-lg bg-[#F9DF8A] p-7 max-h-96 mt-2 ">
+    <div class=" flex justify-start items-start gap-4 flex-col ">
+      <h3 class="adlam-display-regular  text-start font-bold text-xl ">
+        T-shirt for dogs
+      </h3>
+      <p class="text-gray-700">
+        Discover the worlds of treats toys <br>
+        and essentials handpicks.
+      </p>
+      <button class="btn bg-white border border-pet-color px-5 py-2" >Shop now</button>
+    </div>
+      <div class="relative">
+        <img class="relative -top-32 z-0 -right-24" src="./c1-assets/cute-pet-small.png" alt="">
+  </div>
+  </div>
+  
+  <!-- 9 short card -->
+   <div class="lg:w-2/3 grid lg:grid-cols-3 lg:grid-rows-3 grid-cols-2 p-3 gap-3 ">
+    <!-- card-1 -->
+  <div class="flex gap-4 border rounded-xl items-center p-4 bg-white ">
+  <div>
+    <img class="bg-[#FFF9F4] rounded-xl p-5" src="./c1-assets/dog-cartoon.png" alt="">
+  </div>
+  <div class="">
+    <i class="fa-solid fa-star text-pet-color "> 4.5</i>
+    <h6 class="adlam-display-regular ">Pet Bed</h6>
+    <p class="text-xl">$39.9
+  </div>
+  </div>
+  
+  <!-- card-2 -->
+  <div class="flex gap-4 border rounded-xl items-center p-4 bg-white ">
+    <div>
+      <img class="bg-[#FFF9F4] rounded-xl p-5" src="./c1-assets/rabbit-cartoon.png" alt="">
+    </div>
+    <div>
+      <i class="fa-solid fa-star text-pet-color "> 4.5</i>
+      <h6 class="adlam-display-regular ">Pet Bed</h6>
+      <p class="text-xl">$39.9
+    </div>
+    </div>
+    <!-- card-3 -->
+  <div class="flex gap-4 border rounded-xl items-center p-4 bg-white ">
+    <div>
+      <img class="bg-[#FFF9F4] rounded-xl p-5" src="./c1-assets/fish-cartoon.png" alt="">
+    </div>
+    <div>
+      <i class="fa-solid fa-star text-pet-color "> 4.5</i>
+      <h6 class="adlam-display-regular ">Pet Bed</h6>
+      <p class="text-xl">$39.9
+    </div>
+    </div>
+    <!-- card-4 -->
+  <div class="flex gap-4 border rounded-xl items-center p-4 bg-white">
+    <div>
+      <img class="bg-[#FFF9F4] rounded-xl p-5" src="./c1-assets/bird-cartoon.png" alt="">
+    </div>
+    <div>
+      <i class="fa-solid fa-star text-pet-color "> 4.5</i>
+      <h6 class="adlam-display-regular ">Pet Bed</h6>
+      <p class="text-xl">$39.9
+    </div>
+    </div>
+    <!-- card-5 -->
+  <div class="flex gap-4 border rounded-xl items-center p-4 bg-white">
+    <div>
+      <img class="bg-[#FFF9F4] rounded-xl p-5" src="./c1-assets/mouse-cartoon.png" alt="">
+    </div>
+    <div>
+      <i class="fa-solid fa-star text-pet-color "> 4.5</i>
+      <h6 class="adlam-display-regular ">Pet Bed</h6>
+      <p class="text-xl">$39.9
+    </div>
+    </div>
+    <!-- card-6 -->
+  <div class="flex gap-4 border rounded-xl items-center p-4 bg-white">
+    <div>
+      <img class="bg-[#FFF9F4] rounded-xl p-5" src="./c1-assets/pet-couch.png" alt="">
+    </div>
+    <div>
+      <i class="fa-solid fa-star text-pet-color "> 4.5</i>
+      <h6 class="adlam-display-regular ">Pet Bed</h6>
+      <p class="text-xl">$39.9
+    </div>
+    </div>
+    <!-- card-7 -->
+  <div class="flex gap-4 border rounded-xl items-center p-4 bg-white ">
+    <div>
+      <img class="bg-[#FFF9F4] rounded-xl p-5" src="./c1-assets/dog-cartoon.png" alt="">
+    </div>
+    <div>
+      <i class="fa-solid fa-star text-pet-color "> 4.5</i>
+      <h6 class="adlam-display-regular ">Pet Bed</h6>
+      <p class="text-xl">$39.9
+    </div>
+    </div>
+    <!-- card-8 -->
+  <div class="flex gap-4 border rounded-xl items-center p-4 bg-white">
+    <div>
+      <img class="bg-[#FFF9F4] rounded-xl p-5" src="./c1-assets/bird-cartoon.png" alt="">
+    </div>
+    <div>
+      <i class="fa-solid fa-star text-pet-color "> 4.5</i>
+      <h6 class="adlam-display-regular ">Pet Bed</h6>
+      <p class="text-xl">$39.9
+    </div>
+    </div>
+    <!-- card-9 -->
+  <div class="flex gap-4 border rounded-xl items-center p-4  bg-white max-sm:hidden">
+    <div>
+      <img class="bg-[#FFF9F4] rounded-xl p-5" src="./c1-assets/rabbit-cartoon.png" alt="">
+    </div>
+    <div>
+      <i class="fa-solid fa-star text-pet-color "> 4.5</i>
+      <h6 class="adlam-display-regular ">Pet Bed</h6>
+      <p class="text-xl">$39.9
+    </div>
+    </div>
+  
+   </div>
+  </div>
+  </div>
+</section>
+
+    </main>
     <footer></footer>
 </body>
 </html>
